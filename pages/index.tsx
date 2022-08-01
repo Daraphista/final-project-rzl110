@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 const Home = () => {
   return (
     <div className="text-center leading-8">
+      <Head>
+        <title>Jose Rizal</title>
+        <link rel="icon" href="jose-rizal-favicon.jpeg" />
+      </Head>
       <header className="flex items-center justify-center bg-jose-rizal bg-cover bg-fixed h-screen bg-center">
         <h1 className="font-bold text-9xl">Jose Rizal</h1>
       </header>
@@ -116,16 +122,17 @@ const Home = () => {
               national holiday in the Philippines. The Jose Rizal College was
               dedicated to his honor in Manila in 1919. There are commemorative
               monuments to Rizal in Manila near the site of his execution in
-              Luneta Park, in his hometown and most Filipino towns, in Heidelberg,
-              and Chicago. His portrait appears on the Filipino 2-peso bill. The
-              region around Manila, including his hometown of Calamba, was
-              designated a province and named Rizal. His novels are required
-              reading for Filipino high school students. Jose Rizal can perhaps be
-              best summarized using his own words from the poem he wrote from his
-              cell the night before execution. One of the last stanzas of "Ultimo
-              Adios" (Final Farewell) shows his selfless devotion to his country,
-              his loyalty to his family, his deep spirituality despite criticism
-              of the church, and his artistic grace.
+              Luneta Park, in his hometown and most Filipino towns, in
+              Heidelberg, and Chicago. His portrait appears on the Filipino
+              2-peso bill. The region around Manila, including his hometown of
+              Calamba, was designated a province and named Rizal. His novels are
+              required reading for Filipino high school students. Jose Rizal can
+              perhaps be best summarized using his own words from the poem he
+              wrote from his cell the night before execution. One of the last
+              stanzas of "Ultimo Adios" (Final Farewell) shows his selfless
+              devotion to his country, his loyalty to his family, his deep
+              spirituality despite criticism of the church, and his artistic
+              grace.
             </p>
           </div>
         </section>

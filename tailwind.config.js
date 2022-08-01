@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "jose-rizal": "url('../public/jose-rizal-1.jpeg')",
-        "philippine-flag": "url('../public/philippine-flag.jpg')",
-        volcano: "url('../public/volcano.jpg')",
+        "jose-rizal": "url('/jose-rizal-1.jpeg')",
+        "philippine-flag": "url('/philippine-flag.jpg')",
+        volcano: "url('/volcano.jpg')",
       },
     },
   },
